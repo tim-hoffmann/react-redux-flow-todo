@@ -16,7 +16,6 @@ export default {
   },
   devServer: {
     contentBase: path.resolve(__dirname, 'src'),
-    hot: true,
   },
   plugins: [new webpack.HotModuleReplacementPlugin()],
   module: {
