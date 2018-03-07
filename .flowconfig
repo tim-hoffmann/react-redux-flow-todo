@@ -1,0 +1,15 @@
+[ignore]
+./node_modules/*
+./flow-typed/*
+./webpack.config.dev.js
+
+[include]
+
+[libs]
+./flow-typed/
+
+[lints]
+
+[options]
+
+[strict]
