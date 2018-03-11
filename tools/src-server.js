@@ -4,10 +4,13 @@ import webpack from 'webpack';
 import path from 'path';
 import config from '../webpack.config.dev';
 import open from 'open';
+import DashboardPlugin from 'webpack-dashboard/plugin';
 
 const port = 3000;
 const app = express();
 const compiler = webpack(config);
+
+compiler.apply(new DashboardPlugin());
 
 app.use(
   require('webpack-dev-middleware')(compiler, {

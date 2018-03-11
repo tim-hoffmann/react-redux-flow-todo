@@ -17,5 +17,3 @@ ReactDOM.render(
   </BrowserRouter>,
   app,
 );
-
-module.hot.accept();
