@@ -4,5 +4,6 @@
     "development": {
       "presets": ["react-hmre", "flow"]
     }
-  }
+  },
+  "plugins": ["transform-class-properties"]
 }

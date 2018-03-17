@@ -4,8 +4,12 @@
   "plugins": [
     "react",
     "jsx-a11y",
-    "import"
+    "import",
+    "flowtype"
   ],
+  "rules": {
+    "flowtype/define-flow-type": 1,
+  },
   "env": {
     "browser": true,
     "node": true,

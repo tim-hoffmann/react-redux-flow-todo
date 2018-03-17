@@ -1,14 +1,14 @@
 // @flow
 import * as React from 'react';
+import Typography from 'material-ui/Typography';
+import Routes from '../routes';
 
-type Props = {
-  children: Array<Object>,
-};
-
-const App = (props: Props) => (
+const App = () => (
   <div>
-    <h1>ToDo</h1>
-    {props.children}
+    <Typography variant="headline" component="h1">
+      TODOs
+    </Typography>
+    <Routes />
   </div>
 );
 
